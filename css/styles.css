@@ -1,0 +1,317 @@
+body{
+    font-family: "montserrat";
+    background-color: #eeeeee;
+}
+
+.bg-nav{
+    /*background-image: url(bg-willgo.jpg);*/
+    background-color:#424558;
+    border-bottom: 2px solid #ffab00; 
+    margin-bottom: 2px;
+}
+
+
+h1{
+    font-family: 'Montserrat-black';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+
+/* les hovers qui s'adaptent aux onglets de la barre de navigation*/
+
+.menu-ind:hover, .presentation, .btn-spirit:hover{
+    border-top: 5px solid #64dd17;
+    background-color: rgba(60, 200, 125, 0.13 );
+}
+.menu-apropos:hover, .problematique, .btn-soc:hover{
+    border-top: 5px solid #d50000;
+    background-color: rgba(238, 57, 44 , 0.13);
+}
+.menu-con:hover, .btn-miss:hover{
+    border-top: 5px solid #2962ff;
+    background-color: rgba(68, 65, 235, 0.13 );
+}
+.menu-don:hover, .activites{
+    border-top: 5px solid #ffab00;
+    background-color: rgba(235, 173, 7, 0.13 );
+}
+
+.nav-item:hover .nav-link{
+    padding: 5px 5px 5px 5px;
+}
+
+/* Navigation bar*/
+.navbar{
+    padding-bottom: 0rem;
+    margin-top: -8px 0px 30rem 30rem;
+}
+
+
+#navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+    color: #fff;
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size: 1.3rem;
+}
+
+
+.amberger{
+    background-color:rgba(255, 166, 0, 0.596);
+}
+
+.amberger:hover{
+    background-color: rgba(14, 47, 194, 0.63);
+}
+
+
+
+/* les regles pour le slideshow*/
+
+#slideshow{
+    margin-top: -0.5px;
+    padding-top: 0px;
+    background-color:#607d8b;     
+}
+
+.slide{
+    height: ;
+}
+
+.slide-image{
+    width: 100%;
+    height: 5%;
+}
+
+/* les regles pour la deuxieme section apres la section title*/
+#section {
+    padding: 4% 10%;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5% 7%; 
+}
+
+.feature-box p{
+    text-align: justify;
+}
+
+.block{
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius:1%;
+    width: 100%;
+}
+
+.slogan1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    color: #ffab00;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.icona{
+    margin-bottom: 1rem;
+    border-radius: 15%;
+}
+
+.icona:hover{
+    background-color: #4caf50;
+}
+
+
+/* Section pour la passion des jeunes */
+
+.slogan2{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    color: #4caf50;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+
+.image-card{
+    width: 80%;
+    height: 40%;
+    margin: 4% 10%;
+}
+
+.block2{
+    background-color: rgba(255, 255, 255, 0.767);
+    width: 100%;
+}
+
+.hobbies-card:hover{
+    
+}
+
+.hobbies-card{
+    padding: 5% 2%;
+    margin: 0% 0%;
+}
+
+/* Section pour les regle sur les membres fondateurs */
+
+.slogan3{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    color: #2196f3;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Verdana, Tahoma, serif;  
+ }
+
+ .block3{
+    background-color: rgba(224, 186, 18, 0.103);
+    width: 100%;
+    border-radius: 10%;
+}
+
+.pretty-card{
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.founder-card{
+        padding: 5% 2%;
+        margin: 0% 0%;
+}
+
+.founder-image{
+    width: 30%;
+    height: 30%;
+    margin: 4% 35%;
+    border-radius: 100%;
+    border: 1px solid orange;
+}
+
+
+/* les regles pour la  section temoignage*/
+#testimonials{
+    background-color: #ab47bc;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-width{
+    padding: 7% 18%;
+}
+
+
+.testimonials-image{
+    width: 7%;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+#testimonies-text{
+    width: 50%;
+    margin: 0px 25%;
+    color: black;
+}
+
+
+
+
+/* #press{ j'ai besoin de cette code pour personnalise un autre comme celui de ai marketing
+    background-color: #ef8172;
+    margin: -45px 10px 5px 5px;
+    border: 14px solid white;
+    border-radius: 5px;
+    height: 500px;
+}*/
+
+
+
+/* section pricing*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Nos partenaires section */
+
+.pat{
+    height: 300px;
+}
+
+
+
+
+/*call to action section*/
+
+#cta{
+    background-color: #424558c0;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-text{
+    color: #fff;
+    font-family: "Montserrat-bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.btn-donation{
+    margin: 10px 20px;
+}
+
+.moncash{
+    width: 50px;
+}
+
+/* footer section */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 14%;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.705);
+}
+
+.fab{
+    margin: 10px 10px;
+}

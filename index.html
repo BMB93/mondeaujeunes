@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Accueil</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Ma/mes propres css liens-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--la section pour les icons depuis le site www.fontawesome.com-->
+  <script src="https://kit.fontawesome.com/d44910497e.js" crossorigin="anonymous"></script>
+
+  <!-- Javascript from Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<!--Google font Montserrat-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<!--Google font Montserrat un font design par une jeune adolescente-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+<body>
+
+
+
+  <!-- Nav Bar -->
+  <nav class="navbar bg-nav navbar-expand-lg navbar-dark">
+    <img class="navbar-brand" src="img/logo.png" width="80px" alt=""> <span id="navbar-brand">Monde des
+      Jeunes</span>
+
+    <button class="navbar-toggler amberger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item menu-ind">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item menu-apropos">
+          <a class="nav-link" href="apropos.html">A propos</a>
+        </li>
+        <li class="nav-item menu-con">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item menu-don">
+          <a class="nav-link" href="don.html">Donation</a>
+        </li>
+        <li class="nav-item menu-don">
+          <a class="nav-link" href="don.html">Activités</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- le slideshow pour faire animer la page-->
+  <section id="slideshow">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="slide-image" src="img/bg-willgo.jpg" alt="...">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="ads">Bonjour les jeunes, le monde vous attend</h5>
+            <p class="ads">Allons-nous montrer ce que nous pouvons faire</p>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+          <img class="slide-image" src="img/bg-willgo.jpg" alt="...">
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+
+  <!-- Features nos trois points forts-->
+
+  <section id="section">
+    <div class="block">
+      <h1 class="slogan1"> Nos trois points forts</h1>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="icona" src="img/pray.png" alt="icon of pray">
+          <h3>Notre Spiritualité</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+            commodo porttitor, nibh erat ornare velit.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="icona" src="img/diversity.png" alt="icon of community">
+          <h3>Notre Communauté</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+            commodo porttitor, nibh erat ornare velit.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="icona" src="img/mission1.png" alt="icon of mission">
+          <h3>Notre Mission</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+            commodo porttitor, nibh erat ornare velit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Les passions   de la jeunesse -->
+
+  <section id="section">
+    <div class="block2">
+      <h1 class="slogan2"> Ce que les Jeunes veulent</h1>
+      <div class="row">
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger">Football</button>
+            </div>
+            <img class="card-img-top image-card" src="img/football.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger">Vacance</button>
+            </div>
+            <img class="card-img-top image-card" src="img/vacance.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger"> Selfie </button>
+            </div>
+            <img class="card-img-top image-card" src="img/selfie.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger">Reseaux sociaux</button>
+            </div>
+            <img class="card-img-top image-card" src="img/jeunesse-hashtag.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger">Exploration</button>
+            </div>
+            <img class="card-img-top image-card" src="img/marche.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobbies-card col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-hearder">
+              <button type="button" class="btn btn-danger">Encadrement </button>
+            </div>
+            <img class="card-img-top image-card" src="img/youthday.jpg" alt="Card image football">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+     </div>
+    </div>
+  </section>
+
+
+
+  <!-- les fondateurs de ce mouvement -->
+  
+  
+  <section id="section">
+    <div class="block3">
+      <h1 class="slogan3"> Les fondateurs de ce mouvementt</h1>
+      <div class="row">
+        <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/Me.png" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Marc Romens Vilmeus P.</h5>
+                <h5 class="card-title">Theologien/adm Scolaire</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up
+                    the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/Me.png" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Marc Bernard Bellony</h5>
+                <h5 class="card-title">Theologien/ IT</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up
+                    the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/Me.png" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Jamesly Durosier</h5>
+                <h5 class="card-title">Theologien/Graphic Designer</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up
+                    the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/she.jpeg" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Marise Nlolo Patchou.</h5>
+                <h5 class="card-title">Theologienne/Gestionnaire</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/she.jpeg" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Marise Nlolo Patchou.</h5>
+                <h5 class="card-title">Theologienne/Gestionnaire</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+
+       <div class="founder-card col-lg-4 col-md-6">
+          <div class="card pretty-card">
+            <img class="founder-image" src="img/she.jpeg" class="card-img-top" alt="la photo du ceo">
+            <div class="card-body">
+                <h5 class="card-title">Marise Nlolo Patchou.</h5>
+                <h5 class="card-title">Theologienne/Gestionnaire</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up
+                    the
+                    bulk
+                    of the card's content. Some quick example text to build on the card title and
+                    make
+                    up the bulk</p>
+                <a href="#" class="btn btn-primary">Voir ses realisations</a>
+            </div>
+        </div>
+        </div>
+
+     </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+        <div class="carousel-item carousel-width">
+          <p id="testimonies-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+                commodo porttitor, nibh erat ornare velit.</p>
+          <img class="testimonials-image" src="img/he.png" alt="profil temoins">
+          <em>Bufalo Patoutou, New York</em>
+        </div>
+
+        <div class="carousel-item active carousel-width">
+          <p id="testimonies-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+            commodo porttitor, nibh erat ornare velit.</p>
+          <img class="testimonials-image" src="img/she.jpeg" alt="lady-profile">
+          <em>Cassandra Pierre, Illinois</em>
+        </div>
+     
+
+      <div class="carousel-item  carousel-width">
+        <p id="testimonies-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, massa vel
+          commodo porttitor, nibh erat ornare velit.</p>
+        <img class="testimonials-image" src="img/Me.png" alt="lady-profile">
+        <em>Amadou Jean, Illinois</em>
+      </div>
+    </div>
+
+    </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+<!-- Nos partenaires et supporteurs-->
+
+<section id="partners">
+  <div class="pat">
+<h1> Nos partenaires</h1>
+  </div>
+
+</section>
+
+
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+
+      <h3 class="cta-text">Etes-vous intéressé a soutenir l'oeuvre faites par les jeunes et pour les jeunes?</h3>
+      <button type="button" class="btn btn-primary btn-lg button-download btn-donation"> <img class="moncash" src="img/paypal.png" alt=""> </button>
+    <button type="button" class="btn btn-danger btn-lg button-download btn-donation"> <img class="moncash" src="img/monca.png" alt=""> </button>
+    <button type="button" class="btn btn-light btn-lg button-download btn-donation"> <img class="moncash" src="img/master.png" alt=""> </button>
+  
+    </section>
+  <!-- <i class="fab fa-google-play"></i>-->
+  
+    <!-- Footer -->
+  
+    <footer id="footer">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fas fa-envelope"></i>
+      <p>© Copyright 2021     |    developed by BMB Tech</p>
+  
+    </footer>
+  
+  
+
+
+</body>
+
+</html>
